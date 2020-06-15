@@ -4,7 +4,6 @@ RUN apt-get update && apt-get install -y \
         libsqlite3-dev \
         libssl-dev \
         python3-dev \
-        python3-pip \
-        zlib1g-dev
+        python3-pip
 
 RUN pip3 install --upgrade pip
