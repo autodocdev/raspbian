@@ -5,6 +5,6 @@ RUN apt-get update && apt-get install -y \
         libssl-dev \
         python3-dev \
         python3-pip \
-        libzbar0
+        zlib1g-dev
 
 RUN pip3 install --upgrade pip
