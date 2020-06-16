@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
         libbluetooth-dev \
         git \
         python3-pip \
-        libzbar0
+        libzbar0 \
+        libatlas-base-dev
 
 RUN pip3 install --upgrade pip
