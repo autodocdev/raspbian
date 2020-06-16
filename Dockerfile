@@ -1,5 +1,4 @@
 FROM raspbian/stretch
-RUN  apt-get update && apt-get install -y \
-        python3-pip
+RUN  apt-get update
 
 RUN pip3 install --upgrade pip
