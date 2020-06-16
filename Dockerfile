@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
         git \
         python3-pip \
         libzbar0 \
-        libatlas-base-dev
+        libatlas-base-dev \
+        libsm6 \
+        libxext6
 
 RUN pip3 install --upgrade pip
