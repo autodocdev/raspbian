@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y \
         libzbar0 \
         libatlas-base-dev \
         libsm6 \
-        libxext6
+        libxext6 \
+        libtiff5
 
 RUN pip3 install --upgrade pip
